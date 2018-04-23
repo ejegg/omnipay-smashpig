@@ -1,0 +1,36 @@
+{
+  "name": "omnipay/smashpig",
+  "type": "library",
+  "description": "SmashPig adapter for Omnipay payment processing library",
+  "keywords": [
+    "gateway",
+    "merchant",
+    "omnipay",
+    "pay",
+    "payment",
+    "smashpig",
+    "purchase"
+  ],
+  "homepage": "https://github.com/wikimedia",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Elliott Eggleston",
+      "email": "ejegg@ejegg.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": { "Omnipay\\SmashPig\\" : "src/" }
+  },
+  "require": {
+    "omnipay/common": "^3@beta",
+    "wikimedia/smash-pig": "^0.5.4"
+  },
+  "require-dev": {
+    "omnipay/tests": "^3",
+    "squizlabs/php_codesniffer": "^3",
+    "phpro/grumphp": "^0.14"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
